@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-carousel-container {
+  display: flex;
+  width: 50%;
+  background-color: red;
+  overflow: hidden;
+}
+
+.image-carousel-slides {
+  display: flex;
+}
+
+.image-carousel-slides img {
+  display: flex;
+  width: 100%;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
