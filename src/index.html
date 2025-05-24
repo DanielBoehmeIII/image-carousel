@@ -8,17 +8,55 @@
   </head>
   <body>
     <div class="image-carousel-container">
-      <div class="image-carousel-slides">
-        <img
-          src="https://res.cloudinary.com/icelandtours/g_auto,f_auto,c_fill,w_3840,q_auto:good/skogafoss_waterfall_jeremy_goldberg_unsplash_ee8f1905c2.jpg"
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1200px-Double-alaskan-rainbow.jpg"
-        />
-        <img
-          src="https://www.itstactical.com/wp-content/uploads/2013/07/night-sky-jeff-m-1024.png"
-        />
+      <svg
+        class="image-carousel-next"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+      >
+        <g data-name="92-Arrow Right">
+          <path
+            d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"
+          />
+          <path
+            d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z"
+          />
+        </g>
+      </svg>
+      <svg
+        class="image-carousel-previous"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+      >
+        <g data-name="91-Arrow Left">
+          <path
+            d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2z"
+          />
+          <path
+            d="m18.29 24.71-8-8a1 1 0 0 1 0-1.41l8-8 1.41 1.41L12.41 16l7.29 7.29z"
+          />
+        </g>
+      </svg>
+      <div class="image-carousel-nav-dot-container"></div>
+      <div class="image-carousel-frame">
+        <div class="image-carousel-slides">
+          <img
+            src="https://res.cloudinary.com/icelandtours/g_auto,f_auto,c_fill,w_3840,q_auto:good/skogafoss_waterfall_jeremy_goldberg_unsplash_ee8f1905c2.jpg"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1200px-Double-alaskan-rainbow.jpg"
+          />
+          <img
+            src="https://www.itstactical.com/wp-content/uploads/2013/07/night-sky-jeff-m-1024.png"
+          />
+          <img
+            src="https://www.mensjournal.com/.image/t_share/MjE0NDM0MDE0MjY0NTY3NTg4/tourists-visit-yellowstone-national-park.jpg"
+          />
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6226f62738f4f73d2b353e79/4abf945c-e077-4a47-b4ff-a82c4d3105c8/DSC03201.jpg"
+          />
+        </div>
       </div>
     </div>
+    <script src="image-carousel.js"></script>
   </body>
 </html>
